@@ -1,0 +1,409 @@
+body{margin:0px;padding:0px;background:url(images/bg.gif) repeat-x #dba800;font:18px Cambria, Calibri;color:#fff;}
+#topo{
+	width:1024px;
+	height:156px;
+	background:url(images/logo.png) no-repeat;
+	background-position:0px 5px;
+	margin:0 auto;
+	display:block;
+}
+#corpo{width:1024px;height:auto;margin:0 auto;padding:10px;text-align:center;}
+
+input:focus{
+	border:0 none;
+	outline: 0;
+}
+#require{display:none;}
+#formulario input{
+	background:url(images/bg_numberfield.gif) no-repeat;
+	width:73px;
+	height:73px;
+	padding:10px;
+	border:0;
+	font:18 Cambria;
+	color:#fff;}
+input#produto{
+	width:315px;
+	height:73px;
+	background:url(images/texarea_descricao.gif) no-repeat;
+	padding:25px 15px 15px 15px;
+	border:0;
+	float:right;
+	text-align:center;
+	}
+	
+#vlr{
+	display:block;
+	float:right;
+	clear:both;
+}
+#descipt{margin:10px 2px 10px 0;border:0;}
+label#obervation {text-align:left;}
+input#valor{background:url(images/bg_text_pequeno.gif) no-repeat;width:56px;height:56px;font-size:16px;margin-bottom:6px;padding:9px;}
+input#qtdProduto{background:url(images/bg_text_pequeno.gif) no-repeat;width:56px;height:56px;font-size:14px;margin-bottom:6px;text-align:center;}
+input#total{background:url(images/bg_text_pequeno.gif) no-repeat;width:56px;height:56px;font-size:14px;margin-bottom:6px;}
+#qtd{
+	display:block;
+	float:right;
+	clear:both;
+}
+#codigo{
+	width:150px;
+	height:73px;
+	float:right;
+}
+input#resultado{width:150px;}
+#formulario input#enviaPost{
+	
+	width:120px;
+	height:58px;
+	padding:10px;
+	text-align:center;
+	background:#CC3300;
+	border-radius:10px;
+	border:0;
+	font:14px Verdana, Geneva, sans-serif;
+	color:#FFFFFF;
+	display:block;
+	float:right;
+	clear:both;
+	display:none;}
+
+	
+#conteudo{
+	width:400px;
+	margin:0 auto;
+	color:#000;
+	text-align:left;
+ }
+ #conteudo table{
+	 color:#000;
+	 font:12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+ }
+  #conteudo table td.total{
+	  font:16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	  color:#000;
+	  position:absolute;
+	  bottom: 10px;
+	  left:10px;
+  }
+
+#campos{
+	width:500px;
+	height:600px;
+	border:0;
+	float:left;
+	text-align:right;
+}
+
+#preview{
+	position:relative;
+	background:#fff;
+	color:#000;
+	width:480px;
+	height:520px;
+	border:0;
+	float:right;
+	padding:10px;
+	text-align:left;
+}
+
+#botoes_atalhos{
+	display:block;
+	clear:both;
+	list-style:none;
+}
+
+/*Estilos das Mesas*/
+#conteudoMesa{width:776px;height:410px;}
+ul#Mesas li{
+    position:relative;
+	background:url(images/bg_mesocuped_inteira.png) no-repeat;
+	width:237px;
+	height:133px;
+	list-style:none;
+	padding-top:25px;
+	float:left;
+	margin:0 5px 15px 0;
+	color:#000;
+}
+
+ul#Mesas li#livre{background:url(images/bg_mesalivre_inteira.png) no-repeat;position:relative;color:#000;}
+
+ul#Mesas li a{
+	color:#000;
+	text-decoration:none;
+}
+ul#Mesas li ul{
+    width:217px;
+    position:absolute;
+	margin:0;
+	padding:0;
+	float:left;
+	left:10px;
+	bottom:-65px;
+	list-style:none;
+	clear:both;
+	display:none;
+	text-align:left;
+}
+ul#Mesas li ul li{
+    background:url(images/btn_add.png) no-repeat;
+	width:65px;
+	height:64px;
+	z-index:2;
+}
+ul#Mesas li ul li.chekin{
+	background:url(images/btn_chekin.png) no-repeat;
+	background-position:1px 1px;
+}
+
+ul#Mesas li ul li.delete{
+	background:url(images/btn_delete.png) no-repeat;
+}
+ul#Mesas li:hover ul{display:block;}
+
+ul#Mesas li:hover ul li:hover{background:url(images/btn_add_hover.png) no-repeat;}
+ul#Mesas li:hover ul li.chekin:hover{background:url(images/btn_chekin_hover.png) no-repeat;}
+ul#Mesas li:hover ul li.delete:hover{background:url(images/btn_delete_hover.png) no-repeat;}
+
+#clear{clear:both;}
+
+//botoes de atalho//
+#botoes_atalhos{
+	width:500px;
+	height:auto;
+	padding:50px 5px;
+	text-align:left;
+}
+
+ul#comandos{
+	width:480px;
+	display:block;
+	font:10px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align:left;
+	}
+	
+ul#comandos li{
+	list-style:none;
+	float:right;
+	width:84px;
+	height:85px;
+	background:url(images/comandos.png) no-repeat;
+	text-align:center;
+	padding:8px 13px 0 5px;
+	font:12px Verdana, Geneva, sans-serif;
+	display:block;
+	margin:5px;
+	color:#FFF;
+	text-decoration:none;
+}
+
+/*MENU BOTOES DE PAGAMENTO*/
+table#check{
+	border-radius:5px;
+    width:837px;height:476px;
+	background:url(images/bg_pgto.png) no-repeat;
+	font:14px Calibri;
+	color:#6a6a6a
+	padding:60px;
+	display:block;}
+#fonte-1{font:60px Verdana, Geneva, sans-serif;display:none;}
+input#number{
+	background:url(images/input_tel_cpf.png) no-repeat;
+	width:279px;
+	height:56px;
+	border:0;
+	padding:0px 10px 0 10px;
+	font:18px Calibri;
+	color:#6a6a6a;
+	font-weight:bold;
+	text-align:center;
+	}
+#separations{
+	background:url(images/separator.png) no-repeat;
+	widows:813px;
+	height:17px;
+	padding:0;
+	display:block;
+	clear:both;}
+
+div#cpf{
+	width:350px;
+	display:inline-block;
+	height:auto;
+	float:left;
+		}
+#text_descript{
+	font:25px Calibri;
+	font-weight:bold;
+	font-style:normal;
+	color:#6a6a6a;
+	display:block;
+	margin:0 0 7px 0;
+	}
+#spacing{padding:0 10px;}
+div#tel{
+	width:400px;
+	display:inline-block;
+	height:auto;
+	float:left;
+
+	}
+#pesquisa{
+	background:url(images/lupa.png) no-repeat;
+    width:60px;
+	height:61;
+	display:inline-block;
+	float:right;
+}
+#info_pedido{
+	width:418px;
+	height:auto;
+	padding:30px;
+	color:#6a6a6a;
+	font:14px Verdana, Geneva, sans-serif;
+	letter-spacing:-1px;
+	line-height:17px;
+	
+	}
+ul#BT-Pagamentos{width:100%;height:100%;text-align:center;font:13px Tahoma, Geneva, sans-serif;}
+ul#BT-Pagamentos li{list-style:none;float:left;margin:5px;width:173px;height:48px;background:url(images/btn_blank.png) no-repeat;line-height:45px;}
+ul#BT-Pagamentos li a{text-decoration:none;width:173px;height:48px;color:#333;}
+ul#BT-Pagamentos li:hover{background:url(images/btn_blank_hover.png) no-repeat;}
+
+input#valorPago{
+	background:url(images/input_dinheiro.png) no-repeat;
+	width:298px;
+	height:110px;
+	padding:15px;
+	border:0;
+	text-align:center;
+	font:72px Calibri;
+	font-weight:bold;
+	color:#6a6a6a;
+	letter-spacing:5px;
+	}
+input#Preco{
+	background:url(images/input_dinheiro.png) no-repeat;
+	width:298px;
+	height:110px;
+	padding:15px;
+	border:0;
+	text-align:center;
+	font:72px Calibri;
+	font-weight:bold;
+	color:#6a6a6a;
+	letter-spacing:5px;
+	}
+#trocos1{
+	width:400px;
+	height:auto;
+	float:left;
+	margin:10px;
+	}
+#trocos{
+	width:298px;
+	height:auto;
+	float:right;
+	margin:10px 55px 0 0;
+	}
+input#troco{
+	background:url(images/input_dinheiro.png) no-repeat;
+	width:298px;
+	height:110px;
+	padding:15px;
+	border:0;
+	text-align:center;
+	font:72px Calibri;
+	font-weight:bold;
+	color:#6a6a6a;
+	letter-spacing:-2px;
+}
+input#somatudo{display:none;}
+#TextForm1{font:20px Verdana, Geneva, sans-serif; color:#CCC;padding:5px;display:block;}
+	
+	
+	
+/* PAGINA DE FILTRO */
+@font-face{
+	font-family: bitmap8;
+	src:url(fonts/bitmap8.TTF);
+}
+form#form_filtro{
+	width:700px;
+	height:auto;
+	margin:30px auto;
+	position:relative;
+	}
+form#form_filtro label#start{
+	width:261px;
+	height:80px;
+	background:url(images/bg_filter.png) no-repeat
+	;margin:5px;
+	display:inline-block;
+	line-height:10px;
+	text-align:center;
+	clear:both;
+	}
+form#form_filtro label#start span{
+	font-family:bitmap8;
+	font-size:12px;
+	display:block;
+	margin:10px 10px 20px 10px;
+}
+
+form#form_filtro label#start input{
+	width:250px;
+	height:35px;
+	background:url(images/textfield-filter-start.png) no-repeat;
+	border:0;
+	text-align:center;
+	font-family:bitmap8;
+	font-size:12px;
+	color:#ccc;}
+
+
+form#form_filtro label#end{
+	width:261px;
+	height:80px;
+	background:url(images/bg_filter_end.png) no-repeat
+	;margin:5px;
+	display:inline-block;
+	line-height:10px;
+	text-align:center;
+	clear:both;
+	}
+
+	
+form#form_filtro label#end span{
+	font-family:bitmap8;
+	font-size:12px;
+	display:block;
+	margin:10px 10px 20px 10px;
+}
+
+form#form_filtro label#end input{
+	width:250px;
+	height:35px;
+	background:url(images/textfield-filter-end.png) no-repeat;
+	border:0;
+	text-align:center;
+	font-family:bitmap8;
+	font-size:12px;
+	color:#ccc;}
+.submit-btn{
+	background:url(images/bg_btn_filtrar.png) no-repeat;
+	border:0;
+	width:106px;
+	height:64px;
+	position:absolute;
+	bottom:4px;
+	line-height:64px;
+	text-decoration:none;
+	color:#fff;
+	font-family:bitmap8;
+	font-size:9px;
+	margin:0 10px;
+	}
+.submit-btn i{background:url(images/checkin-btn.png) no-repeat;width:22px;height:21px;float:left;margin:16px 4px 0 10px;}

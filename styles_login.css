@@ -1,0 +1,55 @@
+body{background:#abc2cc;margin:0;padding:0;font:14px Verdana, Geneva, sans-serif;}
+
+
+div.fomulario_login{
+margin:100px auto;
+font-family:Verdana, Geneva, sans-serif;
+font-size:16px;
+color:#fff;
+text-align:left;
+}
+
+.validation{font-family:"Courier New", Courier, monospace;font-size:12px; color:#FF0000;}
+
+div.fomulario_login{padding:25px;width:250px;height:220px;background:#0099FF;border-radius:10px;}
+div.fomulario_login{-moz-border-radius: 10px 10px 10px 10px;-webkit-border-radius: 10px 10px 10px 10px;}
+
+
+div.fomulario_login  span.btn input{width:100px;height:40px;background:#CC9900;float:left;border-radius:6px;border:1px solid #FC0;font:Verdana, Geneva, sans-serif 15px;color:#fff;}
+
+div.fomulario_login input{padding:5px 10px 5px 10px;with:200px;height:20px;background:#FFFFFF;border-radius:6px;border:1px solid #CCC;};
+
+div.fomulario_login span{width:200px;height:30px;margin-bottom:4px;float:left;display:block;}
+
+.valida_car_red{background:#F00;padding:5px;margin:0;border-radius:5px;font:10px Georgia, "Times New Roman", Times, serif; color:#FFFFFF;}
+.valida_car_green{background:#009933;padding:5px;margin:0;border-radius:5px;font:10px Georgia, "Times New Roman", Times, serif; color:#FFFFFF;}
+
+.tr_php{font:11px Arial, Helvetica, sans-serif;color:#000033;}
+
+
+
+#menu_top{width:100%;height:23px;background:url(images/images/bg_menu_top.gif) repeat-x;margin:0 auto;}
+
+
+#top_menu_h{width:100%;height:16px;background:url(images/images/top_campos.gif) repeat-x;display:block;}
+#left_menu_h{width:8px;height:16px;background:url(images/images/left_campos.gif) no-repeat;float:left}
+#right_menu_h{width:8px;height:16px;background:url(images/images/right_campos.gif) no-repeat;float:right}
+#menu_esquerdo{background:#fff;width:14%;height:auto;float:left;margin:15px 10px 10px 5px;display:relative;clear:both;}
+
+
+ul#menu_lateral{background:#fff;width:100%;height:auto;padding:0;display:block;font:13px Tahoma, Geneva, sans-serif ;margin:0 auto;list-style:none;clear:both;}
+
+ul#menu_lateral li{width:88%;height:45px;background:#fff;padding:0 6% 0 6%;display:block;margin:0 auto;line-height:45px;}
+ul#menu_lateral li a{text-decoration:none; color:#15406F;}
+ul#menu_lateral li:hover{background:#BEDCFC}
+
+#camo_1{background:#fff;width:42%;height:auto;float:left;margin:15px 5px 15px 0;}
+#top_campo_1{width:100%;height:16px;background:url(images/images/top_campos.gif) repeat-x;display:block;}
+#left_campo_1{width:8px;height:16px;background:url(images/images/left_campos.gif) no-repeat;float:left}
+#right_campo_1{width:8px;height:16px;background:url(images/images/right_campos.gif) no-repeat;float:right}
+
+
+#camo_2{background:#fff;width:40%;height:auto;float:right;margin:15px 5px 15px 0;}
+
+
+
